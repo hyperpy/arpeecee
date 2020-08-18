@@ -15,11 +15,13 @@ keywords = []
 
 [tool.poetry.dependencies]
 python = "^3.6"
+pyvarint = {version = "^0.0.1-alpha.2", allow-prereleases = true}
 
 [tool.poetry.dev-dependencies]
 black = "^19.10b0"
 flake8 = "^3.8.3"
 isort = "^5.0.2"
+mypy = "^0.782"
 
 [tool.black]
 line-length = 80
